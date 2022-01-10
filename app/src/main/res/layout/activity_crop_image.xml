@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#15600C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropImageActivity">
+
+    <com.example.crop_image.view.ImageCropView
+        android:id="@+id/cropImage"
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/btnStartCrop"
+        android:layout_gravity="end"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Crop" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
