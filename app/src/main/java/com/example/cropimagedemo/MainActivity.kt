@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
             when (type) {
                 ScopedMediaPicker.MEDIA_TYPE_IMAGE -> {
                     // Handle your images here
-                    Log.d(TAG, "onCreate: ${pathList}")
                     val myIntent = Intent(this,CropImageActivity::class.java)
                     myIntent.putExtra("data",pathList.first())
                     startActivity(myIntent)
