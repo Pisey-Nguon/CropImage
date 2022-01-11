@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
+import com.example.crop_image.util.ImageUtils
 import com.example.cropimagedemo.databinding.ActivityCropImageBinding
 import java.io.File
 
@@ -28,6 +29,7 @@ class CropImageActivity : AppCompatActivity() {
 //        val bitmap = ImageUtils.croppedAsBitmap(context = this,uri = uri, aspectRatio = aspectRatio)
 
         binding.cropImage.setImageFilePath(path)
+        binding.cropImage.setAspectRatio(1,1)
         binding.btnStartCrop.setOnClickListener {
             val intent = Intent(this,CropResultActivity::class.java)
             intent.putExtra("data",binding.cropImage.croppedAsFileString)
