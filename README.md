@@ -41,8 +41,8 @@ dependencies {
 Step 3. Implement code
 
 ## Preview
-![photo_2022-01-11 10 04 22](https://user-images.githubusercontent.com/47247206/148874204-18fdeb0e-0a2e-4f30-bae7-6843f34686a8.jpeg)
-![photo_2022-01-11 10 09 20](https://user-images.githubusercontent.com/47247206/148874635-2b2feac6-1bd5-4391-8f63-3d3c11196c8c.jpeg)
+![photo_2022-01-11 10 27 04](https://user-images.githubusercontent.com/47247206/148876293-5fed327b-b487-490d-86e7-6fc1bdfc96bf.jpeg)
+![photo_2022-01-11 10 27 01](https://user-images.githubusercontent.com/47247206/148876310-fe1f643c-48b6-442f-b59a-87e28aafc673.jpeg)
 
 
     <com.example.crop_image.view.ImageCropView  
