@@ -27,7 +27,7 @@ Add it in your root settings.gradle at the end of repositories:
 	        google()  
             mavenCentral()  
             jcenter()  
-            maven { url 'https://jitpack.io' }  
+            maven { url 'https://jitpack.io' }  //add this line
      }}
 
 Step 2. Add the dependency
